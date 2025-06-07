@@ -35,6 +35,7 @@ Jupyter Notebook
    - Launches a Selenium-controlled Chrome browser
    - Uses your actual Chrome user profile (Default) to stay logged in to LinkedIn
    - Maximizes the window for consistent layout rendering
+   - 
 ✅ Ensures LinkedIn sees you as a real user and loads the full job list (not limited to 7 postings)
 
 2. close_sign_in_modal(driver)
@@ -44,6 +45,7 @@ Jupyter Notebook
 3. scroll_to_load_jobs(driver)
    - Mimics user behavior by scrolling to the bottom of the LinkedIn job list
    - Clicks “See more jobs” until all postings are loaded (up to max_scrolls)
+   - 
 ✅ Helps collect all listings into the visible DOM for scraping
 
 4. fetch_job_elements(driver)
@@ -85,6 +87,7 @@ OR manually inject cookies (li_at, JSESSIONID) if you're experienced
 
 ## Future Improvements
 🌍 GUI with Streamlit to get user input and benefit more international students
+
 📊 Publish on cloud service to save computation power and reduce run time
 
 ## Disclaimer
