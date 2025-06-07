@@ -7,6 +7,7 @@ This project is a Python-based prototype that automates the process of scraping 
 
 ## Features
 ✅ Scrapes Data Scientist jobs in California from LinkedIn
+
 ✅ Extracts:
 Job title
 Company name
@@ -14,8 +15,11 @@ Location
 Posted time
 Number of applicants
 Direct job posting URL
+
 ✅ Compares employers against USCIS H1B sponsorship records
+
 ✅ Filters jobs with fewer than 80 applicants
+
 ✅ Saves results to a clean .csv file for analysis or follow-up
 
 ## Technologies Used
